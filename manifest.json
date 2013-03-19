@@ -1,0 +1,14 @@
+{
+  "name": "Autosuggestion Controller",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "on/off auto-suggestion on the specific websites",
+  "options_page": "options.html",
+  "background":{
+    "scripts":["bg.js"]
+  },
+  "permissions": [
+      "privacy",
+      "tabs"
+  ]
+}

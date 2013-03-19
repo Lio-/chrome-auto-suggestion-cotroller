@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>My Test Extension Options</title>
+        <script src="options.js"></script>
+        <script src="jquery-1.7.2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./options.css" /> 
+    </head>
+<body>
+    <h1>Settings for auto suggestion control</h1>
+    <div id="alert"></div>
+    <div id="b_or_w">
+        <p>
+        <input id="whiteList" name="black" type="radio" value="whiteList">
+        <label for="whiteList">Enable auto suggestion in these web sites</label>
+            <br />
+            <input id="blackList" name="black" type="radio" value="blackList">
+            <label for="blackList"> Disable auto suggestion in these web sites</label>
+        </p>
+    </div>
+    Domain name:
+        <input id="domain_text" type="text"></input>
+        <input type="BUTTON" id="add_domain" value="Add" />
+    <div id="domain_realm">
+        <p id="domain_empty"></p>
+        <ul id="domain_list">
+        </ul>
+        <br />
+
+    </div>
+    <div id="buttons">
+        <input type="BUTTON" id="save" value="save changes" />
+    </div>
+</body>
+</html>

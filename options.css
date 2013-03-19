@@ -1,0 +1,22 @@
+#b_or_w{
+    background-color:LightGrey;
+    padding:3px;
+    margin-bottom:20px;
+}
+
+#alert{
+    padding:1px;
+    margin:3px;
+    color:red;
+}
+
+#domain_realm{
+    background-color:LightGrey;
+    padding:3px;
+    margin-bottom:20px;
+}
+
+#buttons{
+    background-color:LightGrey;
+    padding:5px;
+}
